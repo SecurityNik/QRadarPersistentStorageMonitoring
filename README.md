@@ -1,7 +1,7 @@
 # QRadarPersistentStorageMonitoring
 Monitors The IBM QRadar Persistent Storage Folder to detect if there is a backlog of events being processed
 
-Recently on at least two occassions, I encountered a problem whereby the IBM QRadar Persistent Storage Folder '/store/persistent_queue/ecs-ec-ingress.ecs-ec-ingress/' fills up and causes a backlog of events. This means, events shown on the events tabs have a date in the past, even though the log sources are streaming in realtime. 
+Recently on at least two occasions, I encountered a problem whereby the IBM QRadar Persistent Storage Folder '/store/persistent_queue/ecs-ec-ingress.ecs-ec-ingress/' fills up and causes a backlog of events. This means, events shown on the events tabs have a date in the past, even though the log sources are streaming in real time.
 
 To monitor this folder, I developed a script which I believe helps to detect this issue sooner rather than later.
 
@@ -26,4 +26,6 @@ Subject: [**] qradar.securitynik.local :: INFORMATIONAL - Monitoring of Persiste
 [*] Current Directory Size in Gigs: 0G
 
  ***Powered By SecurityNik ***
+
+
 
